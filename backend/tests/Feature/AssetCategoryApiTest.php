@@ -26,6 +26,7 @@ class AssetCategoryApiTest extends TestCase
     {
         $cat1 = AssetCategory::create(['name' => 'Laptop']);
         $cat2 = AssetCategory::create(['name' => 'Monitor']);
+        $cat3 = AssetCategory::create(['name' => 'Keyboard']);
 
         $response = $this->putJson("/api/v1/categories/{$cat2->id}", [
             'name' => 'Laptop'

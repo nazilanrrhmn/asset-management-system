@@ -20,7 +20,7 @@ class AssetApiTest extends TestCase
         $location = Location::factory()->create();
 
         $payload = [
-            'name' => 'Laptop Dell XPS',
+            'name' => 'Laptop Ideapad',
             'code' => 'LAP-001',
             'category_id' => $category->id,
             'location_id' => $location->id,
