@@ -11,8 +11,6 @@ Sebelum memulai, pastikan perangkat Anda telah terpasang:
 - Node.js & npm (Versi LTS direkomendasikan)
 - MySQL >= 8.0
 
-## Clone Repository
-
 ## Cara Setup Backend
 
 1. Masuk ke direktori backend:
