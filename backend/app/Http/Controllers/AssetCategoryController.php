@@ -6,7 +6,6 @@ use App\Http\Requests\AssetCategoryRequest;
 use App\Http\Resources\MasterResource;
 use App\Models\AssetCategory;
 use App\Services\MasterDataService;
-use Illuminate\Http\Request;
 
 class AssetCategoryController extends Controller
 {
